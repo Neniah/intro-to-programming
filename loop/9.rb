@@ -2,9 +2,9 @@ count = 1
 
 loop do
   if count % 2 == 0
-    puts 'is even!'
+    puts "#{count} is even!"
   else
-    puts 'is odd!'
+    puts "#{count} is odd!"
   end
   count += 1
   break if count == 6
